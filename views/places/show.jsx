@@ -10,6 +10,10 @@ function show (data) {
             </main>
             <body>
                 <div>
+                    <h2>Description</h2>
+                    <p>Located in {data.place.city}, {data.place.state}, and serving {data.place.cuisines}</p>
+                </div>
+                <div>
                     <h2>Rating</h2>
                     <p>Not Rated</p>
                 </div>
